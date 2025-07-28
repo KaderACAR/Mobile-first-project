@@ -1,17 +1,19 @@
 {
   "expo": {
-    "name": "Mobile-first-project",
-    "slug": "Mobile-first-project",
+    "name": "mobile-project",
+    "slug": "mobile-first-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/onlyjsimg.png",
+    "splash": {
+      "image": "./assets/images/onlyjsimg.png"
+    },
     "scheme": "mobilefirstproject",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
-      
-
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.mobile-first-app"
     },
     "android": {
       "adaptiveIcon": {
@@ -30,10 +32,10 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
+          "image": "./assets/images/onlyjsimg.png",
           "imageWidth": 200,
           "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
+          "backgroundColor": "#a1a1a1"
         }
       ]
     ],
